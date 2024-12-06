@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="326fcf8a-971a-4d2f-a605-8f87f7228698" name="Changes" comment="" />
+    <list default="true" id="326fcf8a-971a-4d2f-a605-8f87f7228698" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +28,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/learn MicroService/Microservice/bookservice",
+    "last_opened_file_path": "D:/learn MicroService/Microservice/discoveryserver",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -45,6 +56,12 @@
       <option name="presentableId" value="Default" />
       <updated>1733310822909</updated>
       <workItem from="1733430703133" duration="122000" />
+      <workItem from="1733432382932" duration="679000" />
+      <workItem from="1733455076810" duration="114000" />
+      <workItem from="1733478153064" duration="1030000" />
+      <workItem from="1733479245289" duration="73000" />
+      <workItem from="1733479334297" duration="27000" />
+      <workItem from="1733479392897" duration="238000" />
     </task>
     <servers />
   </component>
