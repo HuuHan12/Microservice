@@ -1,4 +1,4 @@
-package com.ltfullstack.bookservice.command.model;
+package com.ltfullstack.bookservice.command.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,9 +9,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookRequestModel {
-    private String id;
+public class BookUpdateEvent {
+    private String Id;
     private String name;
     private String author;
-    private  Boolean isReady;
+    private boolean isReady;
 }

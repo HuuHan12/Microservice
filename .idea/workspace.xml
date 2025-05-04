@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326fcf8a-971a-4d2f-a605-8f87f7228698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/aggregate/BookAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/data/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/event/BookCreateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/event/BookEventsHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/command/CreateBookCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/command/CreateBookCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/data/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/model/BookRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/ltfullstack/bookservice/command/model/BookRequestModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +37,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/learn MicroService/Microservice/discoveryserver",
+    "last_opened_file_path": "D:/learn MicroService/Microservice/bookservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +69,8 @@
       <workItem from="1733479245289" duration="73000" />
       <workItem from="1733479334297" duration="27000" />
       <workItem from="1733479392897" duration="238000" />
+      <workItem from="1733636734787" duration="12000" />
+      <workItem from="1746164331654" duration="70000" />
     </task>
     <servers />
   </component>

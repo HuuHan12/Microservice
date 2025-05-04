@@ -1,4 +1,5 @@
 package com.ltfullstack.bookservice.command.command;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,11 +10,10 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateBookCommand {
+public class UpdateBookCommand  {
     @TargetAggregateIdentifier
     private String id;
     private String name;
     private String author;
-    private Boolean isReady;
-
+    private boolean isReady;
 }

@@ -15,9 +15,8 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Book {
     @Id
-    @GeneratedValue (strategy = GenerationType.UUID) //uuid là một chuỗi dài và không giống bất kỳ chuỗi nào
     private String id;
     private String name;
     private String author;
-    private boolean isReady;
+    private Boolean isReady;
 }
