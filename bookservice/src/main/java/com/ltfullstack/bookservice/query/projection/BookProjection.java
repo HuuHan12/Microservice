@@ -20,7 +20,7 @@ public class BookProjection {
     private BookRepository bookRepository;
 
     @QueryHandler
-    public List<BookResponseModel> handle(GetAllBookQuery query){
+    public List<BookResponseModel> handle(GetAllBookQuery query) {
         List<Book> list = bookRepository.findAll();
         List<BookResponseModel> listBookResponse = new ArrayList<>();
         list.forEach(book -> {
@@ -32,11 +32,10 @@ public class BookProjection {
     }
 
     @QueryHandler
-    public BookResponseModel handle(GetBookDetailQuery query){
+    public BookResponseModel handle(GetBookDetailQuery query) throws Exception {
         BookResponseModel bookResponseModel = new BookResponseModel();
-         bookRepository.findById(query.getId()).ifPresent(book -> {
-              BeanUtils.copyProperties(book, bookResponseModel);
-        });
-         return bookResponseModel;
+        Book book = bookRepository.findById(query.getId()).orElseThrow(() -> new Exception("Not found Book With BookId: " + query.getId()));
+        BeanUtils.copyProperties(book, bookResponseModel);
+        return bookResponseModel;
     }
 }
